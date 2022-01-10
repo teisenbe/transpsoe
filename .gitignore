@@ -1,0 +1,5 @@
+*.sch-bak
+*.kicad_pcb-bak
+.svg2shenzhen-cache
+fp-info-cache
+transpsoe-cache.lib
