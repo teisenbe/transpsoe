@@ -61,7 +61,7 @@ F 0 "R1" H 2468 2996 50  0000 L CNN
 F 1 "1M" H 2450 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2440 2940 50  0001 C CNN
 F 3 "~" H 2400 2950 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 2400 2950 50  0001 C CNN "Notes"
+F 4 "" H 2400 2950 50  0001 C CNN "Notes"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
@@ -73,7 +73,7 @@ F 0 "R9" H 4568 2396 50  0000 L CNN
 F 1 "100k" H 4550 2300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 2340 50  0001 C CNN
 F 3 "~" H 4500 2350 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 2350 50  0001 C CNN "Notes"
+F 4 "" H 4500 2350 50  0001 C CNN "Notes"
 	1    4500 2350
 	0    1    1    0   
 $EndComp
@@ -102,7 +102,7 @@ F 0 "R20" V 5000 2000 50  0000 L CNN
 F 1 "100k" V 5100 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 2040 50  0001 C CNN
 F 3 "~" H 5200 2050 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 5200 2050 50  0001 C CNN "Notes"
+F 4 "" H 5200 2050 50  0001 C CNN "Notes"
 	1    5200 2050
 	0    1    1    0   
 $EndComp
@@ -140,7 +140,7 @@ F 0 "R4" H 3518 2846 50  0000 L CNN
 F 1 "100k" H 3500 2750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 2790 50  0001 C CNN
 F 3 "~" H 3450 2800 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3450 2800 50  0001 C CNN "Notes"
+F 4 "" H 3450 2800 50  0001 C CNN "Notes"
 	1    3450 2800
 	0    1    1    0   
 $EndComp
@@ -165,7 +165,7 @@ F 0 "R6" V 3550 2500 50  0000 L CNN
 F 1 "100k" V 3650 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 2540 50  0001 C CNN
 F 3 "~" H 3750 2550 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3750 2550 50  0001 C CNN "Notes"
+F 4 "" H 3750 2550 50  0001 C CNN "Notes"
 	1    3750 2550
 	0    1    1    0   
 $EndComp
@@ -184,7 +184,7 @@ F 0 "R10" H 4568 3346 50  0000 L CNN
 F 1 "100k" H 4550 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 3290 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 3300 50  0001 C CNN "Notes"
+F 4 "" H 4500 3300 50  0001 C CNN "Notes"
 	1    4500 3300
 	0    1    -1   0   
 $EndComp
@@ -196,7 +196,7 @@ F 0 "R11" H 4568 3646 50  0000 L CNN
 F 1 "100k" H 4550 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 3590 50  0001 C CNN
 F 3 "~" H 4500 3600 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 3600 50  0001 C CNN "Notes"
+F 4 "" H 4500 3600 50  0001 C CNN "Notes"
 	1    4500 3600
 	0    1    -1   0   
 $EndComp
@@ -221,7 +221,7 @@ F 0 "R21" V 5000 3700 50  0000 L CNN
 F 1 "100k" V 5100 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 3740 50  0001 C CNN
 F 3 "~" H 5200 3750 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 5200 3750 50  0001 C CNN "Notes"
+F 4 "" H 5200 3750 50  0001 C CNN "Notes"
 	1    5200 3750
 	0    1    -1   0   
 $EndComp
@@ -272,7 +272,7 @@ F 0 "R29" H 7318 2546 50  0000 L CNN
 F 1 "100k" H 7300 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 2490 50  0001 C CNN
 F 3 "~" H 7250 2500 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 2500 50  0001 C CNN "Notes"
+F 4 "" H 7250 2500 50  0001 C CNN "Notes"
 	1    7250 2500
 	0    1    1    0   
 $EndComp
@@ -284,7 +284,7 @@ F 0 "R28" H 7318 2246 50  0000 L CNN
 F 1 "100k" H 7300 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 2190 50  0001 C CNN
 F 3 "~" H 7250 2200 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 2200 50  0001 C CNN "Notes"
+F 4 "" H 7250 2200 50  0001 C CNN "Notes"
 	1    7250 2200
 	0    1    1    0   
 $EndComp
@@ -309,7 +309,7 @@ F 0 "R40" V 7750 2000 50  0000 L CNN
 F 1 "100k" V 7850 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 2040 50  0001 C CNN
 F 3 "~" H 7950 2050 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7950 2050 50  0001 C CNN "Notes"
+F 4 "" H 7950 2050 50  0001 C CNN "Notes"
 	1    7950 2050
 	0    1    1    0   
 $EndComp
@@ -360,7 +360,7 @@ F 0 "R30" H 7318 3346 50  0000 L CNN
 F 1 "100k" H 7300 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 3290 50  0001 C CNN
 F 3 "~" H 7250 3300 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 3300 50  0001 C CNN "Notes"
+F 4 "" H 7250 3300 50  0001 C CNN "Notes"
 	1    7250 3300
 	0    1    -1   0   
 $EndComp
@@ -372,7 +372,7 @@ F 0 "R31" H 7318 3646 50  0000 L CNN
 F 1 "100k" H 7300 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 3590 50  0001 C CNN
 F 3 "~" H 7250 3600 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 3600 50  0001 C CNN "Notes"
+F 4 "" H 7250 3600 50  0001 C CNN "Notes"
 	1    7250 3600
 	0    1    -1   0   
 $EndComp
@@ -397,7 +397,7 @@ F 0 "R41" V 7750 3700 50  0000 L CNN
 F 1 "100k" V 7850 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 3740 50  0001 C CNN
 F 3 "~" H 7950 3750 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7950 3750 50  0001 C CNN "Notes"
+F 4 "" H 7950 3750 50  0001 C CNN "Notes"
 	1    7950 3750
 	0    1    -1   0   
 $EndComp
@@ -471,7 +471,7 @@ F 0 "R2" H 2468 5296 50  0000 L CNN
 F 1 "1M" H 2450 5200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2440 5240 50  0001 C CNN
 F 3 "~" H 2400 5250 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 2400 5250 50  0001 C CNN "Notes"
+F 4 "" H 2400 5250 50  0001 C CNN "Notes"
 	1    2400 5250
 	1    0    0    -1  
 $EndComp
@@ -485,7 +485,7 @@ F 0 "R13" H 4568 4846 50  0000 L CNN
 F 1 "100k" H 4550 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 4790 50  0001 C CNN
 F 3 "~" H 4500 4800 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 4800 50  0001 C CNN "Notes"
+F 4 "" H 4500 4800 50  0001 C CNN "Notes"
 	1    4500 4800
 	0    1    1    0   
 $EndComp
@@ -497,7 +497,7 @@ F 0 "R12" H 4568 4546 50  0000 L CNN
 F 1 "100k" H 4550 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 4490 50  0001 C CNN
 F 3 "~" H 4500 4500 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 4500 50  0001 C CNN "Notes"
+F 4 "" H 4500 4500 50  0001 C CNN "Notes"
 	1    4500 4500
 	0    1    1    0   
 $EndComp
@@ -537,7 +537,7 @@ F 0 "R22" V 5000 4300 50  0000 L CNN
 F 1 "100k" V 5100 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 4340 50  0001 C CNN
 F 3 "~" H 5200 4350 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 5200 4350 50  0001 C CNN "Notes"
+F 4 "" H 5200 4350 50  0001 C CNN "Notes"
 	1    5200 4350
 	0    1    1    0   
 $EndComp
@@ -601,7 +601,7 @@ F 0 "R5" H 3518 5146 50  0000 L CNN
 F 1 "100k" H 3500 5050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 5090 50  0001 C CNN
 F 3 "~" H 3450 5100 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3450 5100 50  0001 C CNN "Notes"
+F 4 "" H 3450 5100 50  0001 C CNN "Notes"
 	1    3450 5100
 	0    1    1    0   
 $EndComp
@@ -629,7 +629,7 @@ F 0 "R7" V 3550 4800 50  0000 L CNN
 F 1 "100k" V 3650 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 4840 50  0001 C CNN
 F 3 "~" H 3750 4850 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3750 4850 50  0001 C CNN "Notes"
+F 4 "" H 3750 4850 50  0001 C CNN "Notes"
 	1    3750 4850
 	0    1    1    0   
 $EndComp
@@ -651,7 +651,7 @@ F 0 "R14" H 4568 5646 50  0000 L CNN
 F 1 "100k" H 4550 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 5590 50  0001 C CNN
 F 3 "~" H 4500 5600 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 4500 5600 50  0001 C CNN "Notes"
+F 4 "" H 4500 5600 50  0001 C CNN "Notes"
 	1    4500 5600
 	0    1    -1   0   
 $EndComp
@@ -671,7 +671,7 @@ F 0 "R23" V 5000 6000 50  0000 L CNN
 F 1 "100k" V 5100 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 6040 50  0001 C CNN
 F 3 "~" H 5200 6050 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 5200 6050 50  0001 C CNN "Notes"
+F 4 "" H 5200 6050 50  0001 C CNN "Notes"
 	1    5200 6050
 	0    1    -1   0   
 $EndComp
@@ -722,7 +722,7 @@ F 0 "R33" H 7318 4846 50  0000 L CNN
 F 1 "100k" H 7300 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 4790 50  0001 C CNN
 F 3 "~" H 7250 4800 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 4800 50  0001 C CNN "Notes"
+F 4 "" H 7250 4800 50  0001 C CNN "Notes"
 	1    7250 4800
 	0    1    1    0   
 $EndComp
@@ -734,7 +734,7 @@ F 0 "R32" H 7318 4546 50  0000 L CNN
 F 1 "100k" H 7300 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 4490 50  0001 C CNN
 F 3 "~" H 7250 4500 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 4500 50  0001 C CNN "Notes"
+F 4 "" H 7250 4500 50  0001 C CNN "Notes"
 	1    7250 4500
 	0    1    1    0   
 $EndComp
@@ -757,7 +757,7 @@ F 0 "R42" V 7750 4300 50  0000 L CNN
 F 1 "100k" V 7850 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 4340 50  0001 C CNN
 F 3 "~" H 7950 4350 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7950 4350 50  0001 C CNN "Notes"
+F 4 "" H 7950 4350 50  0001 C CNN "Notes"
 	1    7950 4350
 	0    1    1    0   
 $EndComp
@@ -808,7 +808,7 @@ F 0 "R34" H 7318 5646 50  0000 L CNN
 F 1 "100k" H 7300 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 5590 50  0001 C CNN
 F 3 "~" H 7250 5600 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 5600 50  0001 C CNN "Notes"
+F 4 "" H 7250 5600 50  0001 C CNN "Notes"
 	1    7250 5600
 	0    1    -1   0   
 $EndComp
@@ -820,7 +820,7 @@ F 0 "R35" H 7318 5946 50  0000 L CNN
 F 1 "100k" H 7300 5850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 5890 50  0001 C CNN
 F 3 "~" H 7250 5900 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7250 5900 50  0001 C CNN "Notes"
+F 4 "" H 7250 5900 50  0001 C CNN "Notes"
 	1    7250 5900
 	0    1    -1   0   
 $EndComp
@@ -843,7 +843,7 @@ F 0 "R43" V 7750 6000 50  0000 L CNN
 F 1 "100k" V 7850 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 6040 50  0001 C CNN
 F 3 "~" H 7950 6050 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 7950 6050 50  0001 C CNN "Notes"
+F 4 "" H 7950 6050 50  0001 C CNN "Notes"
 	1    7950 6050
 	0    1    -1   0   
 $EndComp
@@ -1263,7 +1263,7 @@ F 0 "R49" V 3250 2500 50  0000 L CNN
 F 1 "100k" V 3350 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 2540 50  0001 C CNN
 F 3 "~" H 3450 2550 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3450 2550 50  0001 C CNN "Notes"
+F 4 "" H 3450 2550 50  0001 C CNN "Notes"
 	1    3450 2550
 	0    1    1    0   
 $EndComp
