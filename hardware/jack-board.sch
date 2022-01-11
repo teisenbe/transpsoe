@@ -212,8 +212,6 @@ F 4 "Pull-down for floating inputs" H 2750 4300 50  0001 C CNN "Notes"
 $EndComp
 Wire Wire Line
 	2650 4850 2650 5150
-Text Notes 750  4600 0    50   ~ 0
-Use resistors on inputs instead\nof on common in case switch\nis make-before-break
 Wire Wire Line
 	2750 4150 3000 4150
 $Comp
@@ -233,28 +231,8 @@ F 7 "1 2" H 2650 4650 50  0001 C CNN "Spice_Node_Sequence"
 	1    2650 4650
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2400 4450 2550 4450
-$Comp
-L Device:R_US R?
-U 1 1 622516FE
-P 2250 4450
-AR Path="/622516FE" Ref="R?"  Part="1" 
-AR Path="/6203B4EC/622516FE" Ref="R3"  Part="1" 
-F 0 "R3" H 2318 4496 50  0000 L CNN
-F 1 "100k" H 2300 4400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2290 4440 50  0001 C CNN
-F 3 "~" H 2250 4450 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 2250 4450 50  0001 C CNN "Notes"
-	1    2250 4450
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2650 5150 3    50   Output ~ 0
 Jacks-SUM_SW.out
-Text GLabel 2100 4500 3    50   UnSpc ~ 0
-Jacks-GND
-Wire Wire Line
-	2100 4450 2100 4500
 Text GLabel 3000 4150 2    50   Input ~ 0
 Jacks-A+S
 Text Notes 4350 5000 0    50   ~ 0
@@ -276,4 +254,5 @@ Wire Wire Line
 	4450 2750 4700 2750
 Text Notes 4150 1900 0    50   ~ 0
 J3's output resistor is here since we need to tap\nA+S for the sum switch
+NoConn ~ 2550 4450
 $EndSCHEMATC
