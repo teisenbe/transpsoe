@@ -38,10 +38,14 @@ Each output is labeled with an integer representing a number of octaves to shift
 ### Calibration
 
 1. Apply power to the module.
-2. Set the semitone knob to 0 and the summing switch to the off position.
+2. Unplug any patch cables, set the semitone knob to 0, and the summing switch to the off position.
 3. Measure the first output on the top. It should be 0V, +/- 0.5mV. This is not adjustable. A different value is indicative of a problem with the circuit.
-4. Measure the second output on the top. It should be 1V. Adjust the trimpot on the back of the module to get it as close as possible to 1V.
-5. Measure the third and fourth outputs on the top and the first on the bottom. They should be 2V, 3V, and -1V, respectively. They should be pretty close at this point, but if they're not, you can further tune the trimpot to minimize the error across the -1V, 1V, 2V, and 3V values.
+4. Measure the second output on the top. It should be 1V. Adjust trimpot RV1 to get it as close as possible to 1V.
+5. Measure the third and fourth outputs on the top and the first on the bottom. They should be 2V, 3V, and -1V, respectively. They should be pretty close at this point, but if they're not, you can further tune RV1 to minimize the error across the -1V, 1V, 2V, and 3V values.
+6. Set the semitone knob to 1 and the summing switch to the off position.
+7. Measure the first output on the top. It should be 83.33mV (1/12 mV). Adjust trimpot RV2 to tune as close to 83.33mV as you can, since any error here is going to be multiplied by up to 11.
+8. Set the semitone knob to 11.
+7. Measure the first output on the top. It should be 916.67mV (11/12 mV). Adjust trimpot RV2 to tune as close to 83.33mV as you can, since any error here is going to be multiplied by up to 11.
 
 ### Voltage reference
 

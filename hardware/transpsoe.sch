@@ -74,6 +74,7 @@ F 1 "100k" H 4550 2300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 2340 50  0001 C CNN
 F 3 "~" H 4500 2350 50  0001 C CNN
 F 4 "" H 4500 2350 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 2350 50  0001 C CNN "Tolerance"
 	1    4500 2350
 	0    1    1    0   
 $EndComp
@@ -103,6 +104,7 @@ F 1 "100k" V 5100 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 2040 50  0001 C CNN
 F 3 "~" H 5200 2050 50  0001 C CNN
 F 4 "" H 5200 2050 50  0001 C CNN "Notes"
+F 5 "0.1%" H 5200 2050 50  0001 C CNN "Tolerance"
 	1    5200 2050
 	0    1    1    0   
 $EndComp
@@ -141,6 +143,7 @@ F 1 "100k" H 3500 2750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 2790 50  0001 C CNN
 F 3 "~" H 3450 2800 50  0001 C CNN
 F 4 "" H 3450 2800 50  0001 C CNN "Notes"
+F 5 "0.1%" H 3450 2800 50  0001 C CNN "Tolerance"
 	1    3450 2800
 	0    1    1    0   
 $EndComp
@@ -166,6 +169,7 @@ F 1 "100k" V 3650 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 2540 50  0001 C CNN
 F 3 "~" H 3750 2550 50  0001 C CNN
 F 4 "" H 3750 2550 50  0001 C CNN "Notes"
+F 5 "0.1%" H 3750 2550 50  0001 C CNN "Tolerance"
 	1    3750 2550
 	0    1    1    0   
 $EndComp
@@ -185,6 +189,7 @@ F 1 "100k" H 4550 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 3290 50  0001 C CNN
 F 3 "~" H 4500 3300 50  0001 C CNN
 F 4 "" H 4500 3300 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 3300 50  0001 C CNN "Tolerance"
 	1    4500 3300
 	0    1    -1   0   
 $EndComp
@@ -197,6 +202,7 @@ F 1 "100k" H 4550 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 3590 50  0001 C CNN
 F 3 "~" H 4500 3600 50  0001 C CNN
 F 4 "" H 4500 3600 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 3600 50  0001 C CNN "Tolerance"
 	1    4500 3600
 	0    1    -1   0   
 $EndComp
@@ -222,6 +228,7 @@ F 1 "100k" V 5100 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 3740 50  0001 C CNN
 F 3 "~" H 5200 3750 50  0001 C CNN
 F 4 "" H 5200 3750 50  0001 C CNN "Notes"
+F 5 "0.1%" H 5200 3750 50  0001 C CNN "Tolerance"
 	1    5200 3750
 	0    1    -1   0   
 $EndComp
@@ -273,6 +280,7 @@ F 1 "100k" H 7300 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 2490 50  0001 C CNN
 F 3 "~" H 7250 2500 50  0001 C CNN
 F 4 "" H 7250 2500 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 2500 50  0001 C CNN "Tolerance"
 	1    7250 2500
 	0    1    1    0   
 $EndComp
@@ -285,6 +293,7 @@ F 1 "100k" H 7300 2150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 2190 50  0001 C CNN
 F 3 "~" H 7250 2200 50  0001 C CNN
 F 4 "" H 7250 2200 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 2200 50  0001 C CNN "Tolerance"
 	1    7250 2200
 	0    1    1    0   
 $EndComp
@@ -310,6 +319,7 @@ F 1 "100k" V 7850 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 2040 50  0001 C CNN
 F 3 "~" H 7950 2050 50  0001 C CNN
 F 4 "" H 7950 2050 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7950 2050 50  0001 C CNN "Tolerance"
 	1    7950 2050
 	0    1    1    0   
 $EndComp
@@ -361,6 +371,7 @@ F 1 "100k" H 7300 3250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 3290 50  0001 C CNN
 F 3 "~" H 7250 3300 50  0001 C CNN
 F 4 "" H 7250 3300 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 3300 50  0001 C CNN "Tolerance"
 	1    7250 3300
 	0    1    -1   0   
 $EndComp
@@ -373,6 +384,7 @@ F 1 "100k" H 7300 3550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 3590 50  0001 C CNN
 F 3 "~" H 7250 3600 50  0001 C CNN
 F 4 "" H 7250 3600 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 3600 50  0001 C CNN "Tolerance"
 	1    7250 3600
 	0    1    -1   0   
 $EndComp
@@ -398,6 +410,7 @@ F 1 "100k" V 7850 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 3740 50  0001 C CNN
 F 3 "~" H 7950 3750 50  0001 C CNN
 F 4 "" H 7950 3750 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7950 3750 50  0001 C CNN "Tolerance"
 	1    7950 3750
 	0    1    -1   0   
 $EndComp
@@ -486,6 +499,7 @@ F 1 "100k" H 4550 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 4790 50  0001 C CNN
 F 3 "~" H 4500 4800 50  0001 C CNN
 F 4 "" H 4500 4800 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 4800 50  0001 C CNN "Tolerance"
 	1    4500 4800
 	0    1    1    0   
 $EndComp
@@ -498,6 +512,7 @@ F 1 "100k" H 4550 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 4490 50  0001 C CNN
 F 3 "~" H 4500 4500 50  0001 C CNN
 F 4 "" H 4500 4500 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 4500 50  0001 C CNN "Tolerance"
 	1    4500 4500
 	0    1    1    0   
 $EndComp
@@ -538,6 +553,7 @@ F 1 "100k" V 5100 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 4340 50  0001 C CNN
 F 3 "~" H 5200 4350 50  0001 C CNN
 F 4 "" H 5200 4350 50  0001 C CNN "Notes"
+F 5 "0.1%" H 5200 4350 50  0001 C CNN "Tolerance"
 	1    5200 4350
 	0    1    1    0   
 $EndComp
@@ -602,6 +618,7 @@ F 1 "100k" H 3500 5050 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 5090 50  0001 C CNN
 F 3 "~" H 3450 5100 50  0001 C CNN
 F 4 "" H 3450 5100 50  0001 C CNN "Notes"
+F 5 "0.1%" H 3450 5100 50  0001 C CNN "Tolerance"
 	1    3450 5100
 	0    1    1    0   
 $EndComp
@@ -630,6 +647,7 @@ F 1 "100k" V 3650 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3790 4840 50  0001 C CNN
 F 3 "~" H 3750 4850 50  0001 C CNN
 F 4 "" H 3750 4850 50  0001 C CNN "Notes"
+F 5 "0.1%" H 3750 4850 50  0001 C CNN "Tolerance"
 	1    3750 4850
 	0    1    1    0   
 $EndComp
@@ -652,6 +670,7 @@ F 1 "100k" H 4550 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4540 5590 50  0001 C CNN
 F 3 "~" H 4500 5600 50  0001 C CNN
 F 4 "" H 4500 5600 50  0001 C CNN "Notes"
+F 5 "0.1%" H 4500 5600 50  0001 C CNN "Tolerance"
 	1    4500 5600
 	0    1    -1   0   
 $EndComp
@@ -672,6 +691,7 @@ F 1 "100k" V 5100 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5240 6040 50  0001 C CNN
 F 3 "~" H 5200 6050 50  0001 C CNN
 F 4 "" H 5200 6050 50  0001 C CNN "Notes"
+F 5 "0.1%" H 5200 6050 50  0001 C CNN "Tolerance"
 	1    5200 6050
 	0    1    -1   0   
 $EndComp
@@ -723,6 +743,7 @@ F 1 "100k" H 7300 4750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 4790 50  0001 C CNN
 F 3 "~" H 7250 4800 50  0001 C CNN
 F 4 "" H 7250 4800 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 4800 50  0001 C CNN "Tolerance"
 	1    7250 4800
 	0    1    1    0   
 $EndComp
@@ -735,6 +756,7 @@ F 1 "100k" H 7300 4450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 4490 50  0001 C CNN
 F 3 "~" H 7250 4500 50  0001 C CNN
 F 4 "" H 7250 4500 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 4500 50  0001 C CNN "Tolerance"
 	1    7250 4500
 	0    1    1    0   
 $EndComp
@@ -758,6 +780,7 @@ F 1 "100k" V 7850 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 4340 50  0001 C CNN
 F 3 "~" H 7950 4350 50  0001 C CNN
 F 4 "" H 7950 4350 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7950 4350 50  0001 C CNN "Tolerance"
 	1    7950 4350
 	0    1    1    0   
 $EndComp
@@ -809,6 +832,7 @@ F 1 "100k" H 7300 5550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 5590 50  0001 C CNN
 F 3 "~" H 7250 5600 50  0001 C CNN
 F 4 "" H 7250 5600 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 5600 50  0001 C CNN "Tolerance"
 	1    7250 5600
 	0    1    -1   0   
 $EndComp
@@ -821,6 +845,7 @@ F 1 "100k" H 7300 5850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7290 5890 50  0001 C CNN
 F 3 "~" H 7250 5900 50  0001 C CNN
 F 4 "" H 7250 5900 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7250 5900 50  0001 C CNN "Tolerance"
 	1    7250 5900
 	0    1    -1   0   
 $EndComp
@@ -844,6 +869,7 @@ F 1 "100k" V 7850 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7990 6040 50  0001 C CNN
 F 3 "~" H 7950 6050 50  0001 C CNN
 F 4 "" H 7950 6050 50  0001 C CNN "Notes"
+F 5 "0.1%" H 7950 6050 50  0001 C CNN "Tolerance"
 	1    7950 6050
 	0    1    -1   0   
 $EndComp
@@ -1264,6 +1290,7 @@ F 1 "100k" V 3350 2450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3490 2540 50  0001 C CNN
 F 3 "~" H 3450 2550 50  0001 C CNN
 F 4 "" H 3450 2550 50  0001 C CNN "Notes"
+F 5 "0.1%" H 3450 2550 50  0001 C CNN "Tolerance"
 	1    3450 2550
 	0    1    1    0   
 $EndComp

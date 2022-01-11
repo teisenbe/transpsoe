@@ -207,6 +207,7 @@ F 1 "100k" H 2800 4250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2790 4290 50  0001 C CNN
 F 3 "~" H 2750 4300 50  0001 C CNN
 F 4 "" H 2750 4300 50  0001 C CNN "Notes"
+F 5 "0.1%" H 2750 4300 50  0001 C CNN "Tolerance"
 	1    2750 4300
 	-1   0    0    1   
 $EndComp

@@ -66,6 +66,7 @@ F 0 "R69" V 2995 4900 50  0000 C CNN
 F 1 "10k" V 3086 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3240 4890 50  0001 C CNN
 F 3 "~" H 3200 4900 50  0001 C CNN
+F 4 "0.1%" V 3200 4900 50  0001 C CNN "Tolerance"
 	1    3200 4900
 	0    1    1    0   
 $EndComp
@@ -77,6 +78,7 @@ F 0 "R67" H 1932 4704 50  0000 R CNN
 F 1 "110k" H 1932 4795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2040 4740 50  0001 C CNN
 F 3 "~" H 2000 4750 50  0001 C CNN
+F 4 "1%" H 2000 4750 50  0001 C CNN "Tolerance"
 	1    2000 4750
 	-1   0    0    1   
 $EndComp
@@ -85,21 +87,22 @@ L Device:R_US R68
 U 1 1 62DEB8CC
 P 2000 5050
 F 0 "R68" H 1932 5004 50  0000 R CNN
-F 1 "10k" H 1932 5095 50  0000 R CNN
+F 1 "9.1k" H 1932 5095 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2040 5040 50  0001 C CNN
 F 3 "~" H 2000 5050 50  0001 C CNN
+F 4 "1%" H 2000 5050 50  0001 C CNN "Tolerance"
 	1    2000 5050
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 62DEBC1B
-P 2000 5200
-F 0 "#PWR0103" H 2000 4950 50  0001 C CNN
-F 1 "GND" H 2005 5027 50  0000 C CNN
-F 2 "" H 2000 5200 50  0001 C CNN
-F 3 "" H 2000 5200 50  0001 C CNN
-	1    2000 5200
+P 1850 5500
+F 0 "#PWR0103" H 1850 5250 50  0001 C CNN
+F 1 "GND" H 1855 5327 50  0000 C CNN
+F 2 "" H 1850 5500 50  0001 C CNN
+F 3 "" H 1850 5500 50  0001 C CNN
+	1    1850 5500
 	1    0    0    -1  
 $EndComp
 Text HLabel 5500 5000 2    50   Output ~ 0
@@ -142,17 +145,6 @@ Wire Wire Line
 Connection ~ 4050 4900
 Wire Wire Line
 	4050 4900 4200 4900
-$Comp
-L Device:R_US R70
-U 1 1 61D86DB2
-P 5300 5150
-F 0 "R70" H 5368 5196 50  0000 L CNN
-F 1 "820" H 5368 5105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5340 5140 50  0001 C CNN
-F 3 "~" H 5300 5150 50  0001 C CNN
-	1    5300 5150
-	1    0    0    -1  
-$EndComp
 Connection ~ 5300 5000
 Wire Wire Line
 	5300 5000 5500 5000
@@ -164,6 +156,7 @@ F 0 "R71" H 5368 5496 50  0000 L CNN
 F 1 "10k" H 5368 5405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5340 5440 50  0001 C CNN
 F 3 "~" H 5300 5450 50  0001 C CNN
+F 4 "1%" H 5300 5450 50  0001 C CNN "Tolerance"
 	1    5300 5450
 	1    0    0    -1  
 $EndComp
@@ -178,7 +171,7 @@ F 1 "1N4148" H 4350 5925 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 4350 5800 50  0001 C CNN
 F 3 "~" H 4350 5800 50  0001 C CNN
 	1    4350 5800
-	-1   0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4050 5800 4200 5800
@@ -189,21 +182,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 5300 5300 5300
 Connection ~ 5300 5300
-$Comp
-L power:+12V #PWR0104
-U 1 1 61DC041C
-P 5600 5600
-F 0 "#PWR0104" H 5600 5450 50  0001 C CNN
-F 1 "+12V" H 5615 5773 50  0000 C CNN
-F 2 "" H 5600 5600 50  0001 C CNN
-F 3 "" H 5600 5600 50  0001 C CNN
-	1    5600 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 5600 5600 5600
-Text Notes 3700 6150 0    50   ~ 0
-diode + resistors limit how negative opamp\nwill go when rotary switch is transiently open
+Text Notes 3700 6250 0    50   ~ 0
+diode + resistors limit how positive the opamp\nwill go when rotary switch is transiently open
 $Comp
 L Device:R_US R82
 U 1 1 61E116AA
@@ -212,6 +194,7 @@ F 0 "R82" V 4350 2400 50  0000 C CNN
 F 1 "10k" V 4350 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2640 50  0001 C CNN
 F 3 "~" H 4350 2650 50  0001 C CNN
+F 4 "0.1%" H 4350 2650 50  0001 C CNN "Tolerance"
 	1    4350 2650
 	0    -1   -1   0   
 $EndComp
@@ -229,6 +212,7 @@ F 0 "R81" V 4350 2300 50  0000 C CNN
 F 1 "10k" V 4350 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2540 50  0001 C CNN
 F 3 "~" H 4350 2550 50  0001 C CNN
+F 4 "0.1%" H 4350 2550 50  0001 C CNN "Tolerance"
 	1    4350 2550
 	0    -1   -1   0   
 $EndComp
@@ -240,6 +224,7 @@ F 0 "R80" V 4350 2200 50  0000 C CNN
 F 1 "10k" V 4350 2050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2440 50  0001 C CNN
 F 3 "~" H 4350 2450 50  0001 C CNN
+F 4 "0.1%" H 4350 2450 50  0001 C CNN "Tolerance"
 	1    4350 2450
 	0    -1   -1   0   
 $EndComp
@@ -251,6 +236,7 @@ F 0 "R79" V 4350 2100 50  0000 C CNN
 F 1 "10k" V 4350 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2340 50  0001 C CNN
 F 3 "~" H 4350 2350 50  0001 C CNN
+F 4 "0.1%" H 4350 2350 50  0001 C CNN "Tolerance"
 	1    4350 2350
 	0    -1   -1   0   
 $EndComp
@@ -262,6 +248,7 @@ F 0 "R78" V 4350 2000 50  0000 C CNN
 F 1 "10k" V 4350 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2240 50  0001 C CNN
 F 3 "~" H 4350 2250 50  0001 C CNN
+F 4 "0.1%" H 4350 2250 50  0001 C CNN "Tolerance"
 	1    4350 2250
 	0    -1   -1   0   
 $EndComp
@@ -273,6 +260,7 @@ F 0 "R77" V 4350 1800 50  0000 C CNN
 F 1 "10k" V 4350 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2040 50  0001 C CNN
 F 3 "~" H 4350 2050 50  0001 C CNN
+F 4 "0.1%" H 4350 2050 50  0001 C CNN "Tolerance"
 	1    4350 2050
 	0    -1   -1   0   
 $EndComp
@@ -284,6 +272,7 @@ F 0 "R76" V 4350 1700 50  0000 C CNN
 F 1 "10k" V 4350 1550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 1940 50  0001 C CNN
 F 3 "~" H 4350 1950 50  0001 C CNN
+F 4 "0.1%" H 4350 1950 50  0001 C CNN "Tolerance"
 	1    4350 1950
 	0    -1   -1   0   
 $EndComp
@@ -295,6 +284,7 @@ F 0 "R75" V 4350 1600 50  0000 C CNN
 F 1 "10k" V 4350 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 1840 50  0001 C CNN
 F 3 "~" H 4350 1850 50  0001 C CNN
+F 4 "0.1%" H 4350 1850 50  0001 C CNN "Tolerance"
 	1    4350 1850
 	0    -1   -1   0   
 $EndComp
@@ -306,6 +296,7 @@ F 0 "R74" V 4350 1500 50  0000 C CNN
 F 1 "10k" V 4350 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 1740 50  0001 C CNN
 F 3 "~" H 4350 1750 50  0001 C CNN
+F 4 "0.1%" H 4350 1750 50  0001 C CNN "Tolerance"
 	1    4350 1750
 	0    -1   -1   0   
 $EndComp
@@ -317,6 +308,7 @@ F 0 "R73" V 4350 1400 50  0000 C CNN
 F 1 "10k" V 4350 1250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 1640 50  0001 C CNN
 F 3 "~" H 4350 1650 50  0001 C CNN
+F 4 "0.1%" H 4350 1650 50  0001 C CNN "Tolerance"
 	1    4350 1650
 	0    -1   -1   0   
 $EndComp
@@ -391,6 +383,7 @@ F 0 "R72" V 4350 1300 50  0000 C CNN
 F 1 "10k" V 4350 1150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 1540 50  0001 C CNN
 F 3 "~" H 4350 1550 50  0001 C CNN
+F 4 "0.1%" H 4350 1550 50  0001 C CNN "Tolerance"
 	1    4350 1550
 	0    -1   -1   0   
 $EndComp
@@ -433,4 +426,48 @@ Wire Wire Line
 	5000 4550 5050 4550
 Wire Wire Line
 	4050 4550 4000 4550
+$Comp
+L power:-12V #PWR01
+U 1 1 62321E79
+P 5600 5600
+F 0 "#PWR01" H 5600 5700 50  0001 C CNN
+F 1 "-12V" H 5615 5773 50  0000 C CNN
+F 2 "" H 5600 5600 50  0001 C CNN
+F 3 "" H 5600 5600 50  0001 C CNN
+	1    5600 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R70
+U 1 1 61D86DB2
+P 5300 5150
+F 0 "R70" H 5368 5196 50  0000 L CNN
+F 1 "820" H 5368 5105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5340 5140 50  0001 C CNN
+F 3 "~" H 5300 5150 50  0001 C CNN
+F 4 "1%" H 5300 5150 50  0001 C CNN "Tolerance"
+	1    5300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_TRIM_US RV2
+U 1 1 61DECE46
+P 1850 5350
+F 0 "RV2" V 1850 5100 50  0000 C CNN
+F 1 "2k" V 1750 5350 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 1850 5350 50  0001 C CNN
+F 3 "~" H 1850 5350 50  0001 C CNN
+F 4 "10%" V 1850 5350 50  0001 C CNN "Tolerance"
+	1    1850 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 5350 1700 5500
+Wire Wire Line
+	1700 5500 1850 5500
+Connection ~ 1850 5500
+Wire Wire Line
+	2000 5350 2000 5200
+Text Notes 850  6100 0    50   ~ 0
+Trimpot is needed here to compensate for error from\n1Vinv, resistor divider, and opamp input offset. Since\nthe feedback loop worst case gain is -11, the error\nfrom each of these is significant
 $EndSCHEMATC
