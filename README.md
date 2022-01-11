@@ -44,8 +44,6 @@ Each output is labeled with an integer representing a number of octaves to shift
 5. Measure the third and fourth outputs on the top and the first on the bottom. They should be 2V, 3V, and -1V, respectively. They should be pretty close at this point, but if they're not, you can further tune RV1 to minimize the error across the -1V, 1V, 2V, and 3V values.
 6. Set the semitone knob to 1 and the summing switch to the off position.
 7. Measure the first output on the top. It should be 83.33mV (1/12 mV). Adjust trimpot RV2 to tune as close to 83.33mV as you can, since any error here is going to be multiplied by up to 11.
-8. Set the semitone knob to 11.
-7. Measure the first output on the top. It should be 916.67mV (11/12 mV). Adjust trimpot RV2 to tune as close to 83.33mV as you can, since any error here is going to be multiplied by up to 11.
 
 ### Voltage reference
 
