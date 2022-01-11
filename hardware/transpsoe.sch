@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2200 2800 2400 2800
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J7
 U 1 1 61DE702A
@@ -67,7 +65,6 @@ F 4 "Pull-down for floating inputs" H 2400 2950 50  0001 C CNN "Notes"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
-Connection ~ 2400 2800
 $Comp
 L Device:R_US R9
 U 1 1 61EC90DA
@@ -82,31 +79,6 @@ F 4 "Pull-down for floating inputs" H 4500 2350 50  0001 C CNN "Notes"
 $EndComp
 Wire Wire Line
 	4200 2900 4350 2900
-$Comp
-L Connector:AudioJack2_SwitchT J1
-U 1 1 61B42431
-P 2000 2800
-F 0 "J1" H 1821 2733 50  0000 R CNN
-F 1 "Input CV 1" H 1821 2824 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 2000 2800 50  0001 C CNN
-F 3 "~" H 2000 2800 50  0001 C CNN
-F 4 "V" H 2000 2800 50  0001 C CNN "Spice_Primitive"
-F 5 "sin(0 6 4)" H 2000 2800 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 2000 2800 50  0001 C CNN "Spice_Netlist_Enabled"
-	1    2000 2800
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 61B46669
-P 2200 2900
-F 0 "#PWR01" H 2200 2650 50  0001 C CNN
-F 1 "GND" H 2205 2727 50  0000 C CNN
-F 2 "" H 2200 2900 50  0001 C CNN
-F 3 "" H 2200 2900 50  0001 C CNN
-	1    2200 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 61E5F267
@@ -159,39 +131,6 @@ F 6 "" H 5250 2450 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 5250 2450 50  0001 C CNN "Spice_Primitive"
 	1    5250 2450
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_US R24
-U 1 1 61E2A50D
-P 5700 2450
-F 0 "R24" V 5905 2450 50  0000 C CNN
-F 1 "50" V 5814 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 2440 50  0001 C CNN
-F 3 "~" H 5700 2450 50  0001 C CNN
-	1    5700 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 61B76ACD
-P 5850 2550
-F 0 "#PWR011" H 5850 2300 50  0001 C CNN
-F 1 "GND" H 5855 2377 50  0000 C CNN
-F 2 "" H 5850 2550 50  0001 C CNN
-F 3 "" H 5850 2550 50  0001 C CNN
-	1    5850 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J3
-U 1 1 61B72BDF
-P 6050 2450
-F 0 "J3" H 5871 2383 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 5871 2474 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 6050 2450 50  0001 C CNN
-F 3 "~" H 6050 2450 50  0001 C CNN
-	1    6050 2450
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_US R4
@@ -323,28 +262,6 @@ F 3 "~" H 5700 3350 50  0001 C CNN
 	1    5700 3350
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 6246E0FE
-P 5850 3250
-F 0 "#PWR012" H 5850 3000 50  0001 C CNN
-F 1 "GND" H 5855 3077 50  0000 C CNN
-F 2 "" H 5850 3250 50  0001 C CNN
-F 3 "" H 5850 3250 50  0001 C CNN
-	1    5850 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J4
-U 1 1 6246E104
-P 6050 3350
-F 0 "J4" H 5871 3283 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 5871 3374 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 6050 3350 50  0001 C CNN
-F 3 "~" H 6050 3350 50  0001 C CNN
-	1    6050 3350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 3300 4350 2900
 $Comp
@@ -432,28 +349,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 2440 50  0
 F 3 "~" H 8450 2450 50  0001 C CNN
 	1    8450 2450
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 6248AC60
-P 8600 2550
-F 0 "#PWR021" H 8600 2300 50  0001 C CNN
-F 1 "GND" H 8605 2377 50  0000 C CNN
-F 2 "" H 8600 2550 50  0001 C CNN
-F 3 "" H 8600 2550 50  0001 C CNN
-	1    8600 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J8
-U 1 1 6248AC6A
-P 8800 2450
-F 0 "J8" H 8621 2383 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 8621 2474 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 8800 2450 50  0001 C CNN
-F 3 "~" H 8800 2450 50  0001 C CNN
-	1    8800 2450
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7100 2500 7100 2900
@@ -543,28 +438,6 @@ F 3 "~" H 8450 3350 50  0001 C CNN
 	1    8450 3350
 	0    -1   1    0   
 $EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 6248ACCA
-P 8600 3250
-F 0 "#PWR022" H 8600 3000 50  0001 C CNN
-F 1 "GND" H 8605 3077 50  0000 C CNN
-F 2 "" H 8600 3250 50  0001 C CNN
-F 3 "" H 8600 3250 50  0001 C CNN
-	1    8600 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J9
-U 1 1 6248ACD4
-P 8800 3350
-F 0 "J9" H 8621 3283 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 8621 3374 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 8800 3350 50  0001 C CNN
-F 3 "~" H 8800 3350 50  0001 C CNN
-	1    8800 3350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 3300 7100 2900
 Connection ~ 7100 2900
@@ -587,8 +460,6 @@ F 7 "" H 2950 5200 50  0001 C CNN "Spice_Primitive"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 5100 2400 5100
-Wire Wire Line
 	3250 5200 3250 5450
 Wire Wire Line
 	3250 5450 2650 5450
@@ -604,7 +475,6 @@ F 4 "Pull-down for floating inputs" H 2400 5250 50  0001 C CNN "Notes"
 	1    2400 5250
 	1    0    0    -1  
 $EndComp
-Connection ~ 2400 5100
 Wire Wire Line
 	2650 5450 2650 5300
 $Comp
@@ -637,28 +507,6 @@ Wire Wire Line
 	4350 4500 4350 4300
 Wire Wire Line
 	4200 5200 4350 5200
-$Comp
-L Connector:AudioJack2_SwitchT J2
-U 1 1 626048FD
-P 2000 5100
-F 0 "J2" H 1821 5033 50  0000 R CNN
-F 1 "Input CV 2" H 1821 5124 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 2000 5100 50  0001 C CNN
-F 3 "~" H 2000 5100 50  0001 C CNN
-	1    2000 5100
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 62604907
-P 2200 5200
-F 0 "#PWR02" H 2200 4950 50  0001 C CNN
-F 1 "GND" H 2205 5027 50  0000 C CNN
-F 2 "" H 2200 5200 50  0001 C CNN
-F 3 "" H 2200 5200 50  0001 C CNN
-	1    2200 5200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 62604911
@@ -729,28 +577,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 4740 50  0
 F 3 "~" H 5700 4750 50  0001 C CNN
 	1    5700 4750
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 62604956
-P 5850 4850
-F 0 "#PWR013" H 5850 4600 50  0001 C CNN
-F 1 "GND" H 5855 4677 50  0000 C CNN
-F 2 "" H 5850 4850 50  0001 C CNN
-F 3 "" H 5850 4850 50  0001 C CNN
-	1    5850 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J5
-U 1 1 62604960
-P 6050 4750
-F 0 "J5" H 5871 4683 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 5871 4774 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 6050 4750 50  0001 C CNN
-F 3 "~" H 6050 4750 50  0001 C CNN
-	1    6050 4750
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Opamp_Quad_Generic U1
@@ -829,7 +655,6 @@ F 4 "Pull-down for floating inputs" H 4500 5600 50  0001 C CNN "Notes"
 	1    4500 5600
 	0    1    -1   0   
 $EndComp
-Connection ~ 5550 5650
 Wire Wire Line
 	5550 6050 5550 5650
 Wire Wire Line
@@ -886,28 +711,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 5640 50  0
 F 3 "~" H 5700 5650 50  0001 C CNN
 	1    5700 5650
 	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 626049F2
-P 5850 5550
-F 0 "#PWR014" H 5850 5300 50  0001 C CNN
-F 1 "GND" H 5855 5377 50  0000 C CNN
-F 2 "" H 5850 5550 50  0001 C CNN
-F 3 "" H 5850 5550 50  0001 C CNN
-	1    5850 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J6
-U 1 1 626049FC
-P 6050 5650
-F 0 "J6" H 5871 5583 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 5871 5674 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 6050 5650 50  0001 C CNN
-F 3 "~" H 6050 5650 50  0001 C CNN
-	1    6050 5650
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4350 5600 4350 5200
@@ -995,28 +798,6 @@ F 3 "~" H 8450 4750 50  0001 C CNN
 	1    8450 4750
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 62604A5C
-P 8600 4850
-F 0 "#PWR023" H 8600 4600 50  0001 C CNN
-F 1 "GND" H 8605 4677 50  0000 C CNN
-F 2 "" H 8600 4850 50  0001 C CNN
-F 3 "" H 8600 4850 50  0001 C CNN
-	1    8600 4850
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J10
-U 1 1 62604A66
-P 8800 4750
-F 0 "J10" H 8621 4683 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 8621 4774 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 8800 4750 50  0001 C CNN
-F 3 "~" H 8800 4750 50  0001 C CNN
-	1    8800 4750
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7100 4800 7100 5200
 $Comp
@@ -1102,28 +883,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 5640 50  0
 F 3 "~" H 8450 5650 50  0001 C CNN
 	1    8450 5650
 	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 62604AC6
-P 8600 5550
-F 0 "#PWR024" H 8600 5300 50  0001 C CNN
-F 1 "GND" H 8605 5377 50  0000 C CNN
-F 2 "" H 8600 5550 50  0001 C CNN
-F 3 "" H 8600 5550 50  0001 C CNN
-	1    8600 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:AudioJack2_SwitchT J11
-U 1 1 62604AD0
-P 8800 5650
-F 0 "J11" H 8621 5583 50  0000 R CNN
-F 1 "AudioJack2_SwitchT" H 8621 5674 50  0000 R CNN
-F 2 "transpsoe:PJ-301BM" H 8800 5650 50  0001 C CNN
-F 3 "~" H 8800 5650 50  0001 C CNN
-	1    8800 5650
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7100 5600 7100 5200
@@ -1590,152 +1349,115 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x08_Male J14
 U 1 1 61DCEE10
-P 1200 6100
-F 0 "J14" H 1450 6500 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1308 6490 50  0001 C CNN
-F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1200 6100 50  0001 C CNN
-F 3 "~" H 1200 6100 50  0001 C CNN
-	1    1200 6100
+P 1700 6150
+F 0 "J14" H 1950 6550 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1808 6540 50  0001 C CNN
+F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1700 6150 50  0001 C CNN
+F 3 "~" H 1700 6150 50  0001 C CNN
+	1    1700 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Male J15
 U 1 1 61DCF681
-P 1200 7100
-F 0 "J15" H 1450 7500 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 1308 7490 50  0001 C CNN
-F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1200 7100 50  0001 C CNN
-F 3 "~" H 1200 7100 50  0001 C CNN
-	1    1200 7100
+P 1700 7150
+F 0 "J15" H 1950 7550 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1808 7540 50  0001 C CNN
+F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1700 7150 50  0001 C CNN
+F 3 "~" H 1700 7150 50  0001 C CNN
+	1    1700 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J13
 U 1 1 61DD342F
-P 1150 7100
-F 0 "J13" H 800 7500 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 1178 6985 50  0001 L CNN
-F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1150 7100 50  0001 C CNN
-F 3 "~" H 1150 7100 50  0001 C CNN
-	1    1150 7100
+P 1650 7150
+F 0 "J13" H 1300 7550 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 1678 7035 50  0001 L CNN
+F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1650 7150 50  0001 C CNN
+F 3 "~" H 1650 7150 50  0001 C CNN
+	1    1650 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J12
 U 1 1 61DD1868
-P 1150 6100
-F 0 "J12" H 800 6500 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 500 6750 50  0001 L CNN
-F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1150 6100 50  0001 C CNN
-F 3 "~" H 1150 6100 50  0001 C CNN
-	1    1150 6100
+P 1650 6150
+F 0 "J12" H 1300 6550 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 1000 6800 50  0001 L CNN
+F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1650 6150 50  0001 C CNN
+F 3 "~" H 1650 6150 50  0001 C CNN
+	1    1650 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  5800 1400 5800
-Wire Wire Line
-	950  5900 1400 5900
-Wire Wire Line
-	950  6000 1400 6000
-Wire Wire Line
-	950  6100 1400 6100
-Wire Wire Line
-	950  6200 1400 6200
-Wire Wire Line
-	950  6300 1400 6300
-Wire Wire Line
-	950  6400 1400 6400
-Wire Wire Line
-	950  6500 1400 6500
-Wire Wire Line
-	950  6800 1400 6800
-Wire Wire Line
-	950  6900 1400 6900
-Wire Wire Line
-	950  7000 1400 7000
-Wire Wire Line
-	950  7100 1400 7100
-Wire Wire Line
-	950  7200 1400 7200
-Wire Wire Line
-	950  7300 1400 7300
-Wire Wire Line
-	950  7400 1400 7400
-Wire Wire Line
-	950  7500 1400 7500
-Text GLabel 1400 5800 2    50   UnSpc ~ 0
+Text GLabel 1900 5850 2    50   UnSpc ~ 0
 SW1.a
-Text GLabel 1400 5900 2    50   UnSpc ~ 0
+Text GLabel 1900 5950 2    50   UnSpc ~ 0
 SW1.b
 $Comp
 L power:GND #PWR0109
 U 1 1 61E86B49
-P 2000 6000
-F 0 "#PWR0109" H 2000 5750 50  0001 C CNN
-F 1 "GND" H 2005 5827 50  0000 C CNN
-F 2 "" H 2000 6000 50  0001 C CNN
-F 3 "" H 2000 6000 50  0001 C CNN
-	1    2000 6000
+P 2500 6050
+F 0 "#PWR0109" H 2500 5800 50  0001 C CNN
+F 1 "GND" H 2505 5877 50  0000 C CNN
+F 2 "" H 2500 6050 50  0001 C CNN
+F 3 "" H 2500 6050 50  0001 C CNN
+	1    2500 6050
 	1    0    0    -1  
 $EndComp
-Connection ~ 1400 6000
-Text Label 1400 6100 0    50   ~ 0
+Text Label 1900 6150 0    50   ~ 0
 J1.T
-Text Label 1400 6300 0    50   ~ 0
+Text Label 1900 6350 0    50   ~ 0
 J2.T
-Text Label 2350 2800 1    50   ~ 0
+Text Label 2400 2800 1    50   ~ 0
 J1.T
-Text Label 2350 5100 1    50   ~ 0
+Text Label 2400 5100 1    50   ~ 0
 J2.T
-Text Label 1400 6500 0    50   ~ 0
+Text Label 1900 6550 0    50   ~ 0
 J5.T
-Text Label 5850 2450 1    50   ~ 0
-J3.T
-Text Label 5850 4750 1    50   ~ 0
+Text Label 5850 4750 0    50   ~ 0
 J5.T
-Text Label 5850 3350 1    50   ~ 0
+Text Label 5850 3350 0    50   ~ 0
 J4.T
-Text Label 5850 5650 1    50   ~ 0
+Text Label 5850 5650 0    50   ~ 0
 J6.T
-Text Label 8600 5650 1    50   ~ 0
+Text Label 8600 5650 0    50   ~ 0
 J11.T
-Text Label 8600 4750 1    50   ~ 0
+Text Label 8600 4750 0    50   ~ 0
 J10.T
-Text Label 8600 3350 1    50   ~ 0
+Text Label 8600 3350 0    50   ~ 0
 J9.T
-Text Label 8600 2450 1    50   ~ 0
+Text Label 8600 2450 0    50   ~ 0
 J8.T
-Text Label 1400 6800 0    50   ~ 0
+Text Label 1900 6850 0    50   ~ 0
 J4.T
-Text Label 1400 6900 0    50   ~ 0
+Text Label 1900 6950 0    50   ~ 0
 J8.T
-Text Label 1400 7000 0    50   ~ 0
+Text Label 1900 7050 0    50   ~ 0
 J9.T
 $Comp
 L power:GND #PWR0110
 U 1 1 61F19A28
-P 1750 7200
-F 0 "#PWR0110" H 1750 6950 50  0001 C CNN
-F 1 "GND" H 1755 7027 50  0000 C CNN
-F 2 "" H 1750 7200 50  0001 C CNN
-F 3 "" H 1750 7200 50  0001 C CNN
-	1    1750 7200
+P 2250 7250
+F 0 "#PWR0110" H 2250 7000 50  0001 C CNN
+F 1 "GND" H 2255 7077 50  0000 C CNN
+F 2 "" H 2250 7250 50  0001 C CNN
+F 3 "" H 2250 7250 50  0001 C CNN
+	1    2250 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 7200 1750 7200
-Connection ~ 1400 7200
+	1900 7250 2250 7250
 Wire Wire Line
-	1400 7100 1750 7100
+	1900 7150 2250 7150
 Wire Wire Line
-	1750 7100 1750 7200
-Connection ~ 1400 7100
-Connection ~ 1750 7200
-Text Label 1400 7500 0    50   ~ 0
+	2250 7150 2250 7250
+Connection ~ 2250 7250
+Text Label 1900 7550 0    50   ~ 0
 J6.T
-Text Label 1400 7400 0    50   ~ 0
+Text Label 1900 7450 0    50   ~ 0
 J10.T
-Text Label 1400 7300 0    50   ~ 0
+Text Label 1900 7350 0    50   ~ 0
 J11.T
 Wire Wire Line
 	4950 2350 4650 2350
@@ -1800,75 +1522,12 @@ Wire Wire Line
 Wire Wire Line
 	3350 900  3450 900 
 Wire Wire Line
-	3250 4450 3600 4450
-Wire Wire Line
 	3600 4450 3600 4850
 Connection ~ 3600 4850
-$Comp
-L power:GND #PWR0111
-U 1 1 61E0F642
-P 2700 3750
-F 0 "#PWR0111" H 2700 3500 50  0001 C CNN
-F 1 "GND" H 2705 3577 50  0000 C CNN
-F 2 "" H 2700 3750 50  0001 C CNN
-F 3 "" H 2700 3750 50  0001 C CNN
-	1    2700 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 3750 3150 3750
-$Comp
-L Device:R_US R16
-U 1 1 61E340D9
-P 3350 3600
-F 0 "R16" H 3418 3646 50  0000 L CNN
-F 1 "100k" H 3400 3550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3390 3590 50  0001 C CNN
-F 3 "~" H 3350 3600 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 3350 3600 50  0001 C CNN "Notes"
-	1    3350 3600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3250 4150 3250 4450
-$Comp
-L Device:R_US R3
-U 1 1 61E3C568
-P 2850 3750
-F 0 "R3" H 2918 3796 50  0000 L CNN
-F 1 "100k" H 2900 3700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2890 3740 50  0001 C CNN
-F 3 "~" H 2850 3750 50  0001 C CNN
-F 4 "Pull-down for floating inputs" H 2850 3750 50  0001 C CNN "Notes"
-	1    2850 3750
-	0    -1   -1   0   
-$EndComp
-Text Notes 1350 3900 0    50   ~ 0
-Use resistors on inputs instead\nof on common in case switch\nis make-before-break
-Wire Wire Line
-	3250 4450 3200 4450
-Connection ~ 3250 4450
 Text Label 3200 4450 2    50   ~ 0
 SUM_SW.out
-Text Label 1400 6200 0    50   ~ 0
-SUM_SW.out
 Wire Wire Line
-	1400 6000 2000 6000
-$Comp
-L Switch:SW_SPDT SW2
-U 1 1 61DDFDEC
-P 3250 3950
-F 0 "SW2" V 3296 3762 50  0000 R CNN
-F 1 "SW_SPDT" V 3205 3762 50  0000 R CNN
-F 2 "transpsoe:BNT11SEA5QE" H 3250 3950 50  0001 C CNN
-F 3 "~" H 3250 3950 50  0001 C CNN
-F 4 "R" H 3250 3950 50  0001 C CNN "Spice_Primitive"
-F 5 "0" H 3250 3950 50  0001 C CNN "Spice_Model"
-F 6 "Y" H 3250 3950 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "1 2" H 3250 3950 50  0001 C CNN "Spice_Node_Sequence"
-	1    3250 3950
-	0    -1   -1   0   
-$EndComp
+	1900 6050 2500 6050
 Wire Wire Line
 	4350 2350 4350 2900
 Connection ~ 3600 2800
@@ -1888,33 +1547,61 @@ F 7 "" H 3900 2900 50  0001 C CNN "Spice_Lib_File"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3350 3450 3600 3450
-Connection ~ 5550 2450
-Wire Wire Line
-	5550 2050 5650 2050
-Wire Wire Line
 	5350 2050 5550 2050
-Connection ~ 5550 2050
 Wire Wire Line
 	5550 2050 5550 2450
-Text Label 5650 2050 0    50   ~ 0
+Text Label 5650 2450 0    50   ~ 0
 A+S
-Text Label 3600 3450 0    50   ~ 0
-A+S
-Text Label 1400 6400 0    50   ~ 0
+Text Label 1900 6450 0    50   ~ 0
 A+S
 Text Label 7100 4300 0    50   ~ 0
 1Vinv
 Text Label 7100 6100 0    50   ~ 0
 2Vinv
-NoConn ~ 8600 4650
-NoConn ~ 8600 5750
-NoConn ~ 5850 5750
-NoConn ~ 5850 4650
-NoConn ~ 5850 3450
-NoConn ~ 5850 2350
-NoConn ~ 8600 2350
-NoConn ~ 8600 3450
-NoConn ~ 2200 2700
-NoConn ~ 2200 5000
+Text GLabel 1450 5850 0    50   UnSpc ~ 0
+Jacks-SW1.a
+Text GLabel 1450 5950 0    50   UnSpc ~ 0
+Jacks-SW1.b
+Text GLabel 1450 6050 0    50   UnSpc ~ 0
+Jacks-GND
+Text GLabel 1450 7150 0    50   UnSpc ~ 0
+Jacks-GND
+Text GLabel 1450 7250 0    50   UnSpc ~ 0
+Jacks-GND
+Connection ~ 5550 5650
+Text GLabel 1450 6150 0    50   Input ~ 0
+Jacks-J1.T
+Text GLabel 1450 6350 0    50   Input ~ 0
+Jacks-J2.T
+Text GLabel 1450 6550 0    50   Output ~ 0
+Jacks-J5.T
+Text GLabel 1450 6850 0    50   Output ~ 0
+Jacks-J4.T
+Text GLabel 1450 6950 0    50   Output ~ 0
+Jacks-J8.T
+Text GLabel 1450 7050 0    50   Output ~ 0
+Jacks-J9.T
+Text GLabel 1450 7350 0    50   Output ~ 0
+Jacks-J11.T
+Text GLabel 1450 7450 0    50   Output ~ 0
+Jacks-J10.T
+Text GLabel 1450 7550 0    50   Output ~ 0
+Jacks-J6.T
+Wire Wire Line
+	3200 4450 3600 4450
+Text GLabel 1450 6250 0    50   Input ~ 0
+Jacks-SUM_SW.out
+Text Label 1900 6250 0    50   ~ 0
+SUM_SW.out
+Text GLabel 1450 6450 0    50   Output ~ 0
+Jacks-A+S
+$Sheet
+S 1000 5300 750  150 
+U 6203B4EC
+F0 "jack-board" 50
+F1 "jack-board.sch" 50
+$EndSheet
+Wire Wire Line
+	5550 2450 5650 2450
+Connection ~ 5550 2450
 $EndSCHEMATC
