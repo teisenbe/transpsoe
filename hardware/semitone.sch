@@ -22,7 +22,7 @@ AR Path="/62DB5CAB/62DDB104" Ref="SW1"  Part="1"
 F 0 "SW1" H 3700 2931 50  0000 C CNN
 F 1 "SW_Rotary12" H 3700 2840 50  0000 C CNN
 F 2 "transpsoe:MC12xxxCxx" H 3600 2850 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 3600 2850 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1353/m.pdf" H 3600 2850 50  0001 C CNN
 	1    3800 2150
 	1    0    0    1   
 $EndComp
