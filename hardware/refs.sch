@@ -27,6 +27,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 3600 1450 50  0001 C CNN "Suggested Part"
 	3    3600 1450
 	1    0    0    -1  
 $EndComp
@@ -44,6 +45,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 4500 1350 50  0001 C CNN "Suggested Part"
 	1    4500 1350
 	1    0    0    -1  
 $EndComp
@@ -81,6 +83,7 @@ F 4 "R" H 1900 1350 50  0001 C CNN "Spice_Primitive"
 F 5 "2k" H 1900 1350 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1900 1350 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "10%" V 1900 1350 50  0001 C CNN "Tolerance"
+F 8 "Tayda A-591" H 1900 1350 50  0001 C CNN "Suggested Part"
 	1    1900 1350
 	0    -1   -1   0   
 $EndComp
@@ -363,6 +366,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 10350 1250 50  0001 C CNN "Suggested Part"
 	5    10350 1250
 	1    0    0    -1  
 $EndComp
@@ -560,6 +564,7 @@ F 0 "C11" H 2615 1546 50  0000 L CNN
 F 1 "DNI" H 2615 1455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2538 1350 50  0001 C CNN
 F 3 "~" H 2500 1500 50  0001 C CNN
+F 4 "Decoupling, unclear if needed. No harm will come from putting 100nF here" H 2500 1500 50  0001 C CNN "Notes"
 	1    2500 1500
 	1    0    0    -1  
 $EndComp
@@ -571,6 +576,7 @@ F 0 "C12" H 650 1600 50  0000 L CNN
 F 1 "DNI" H 650 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 1350 50  0001 C CNN
 F 3 "~" H 900 1500 50  0001 C CNN
+F 4 "Decoupling, unclear if needed. No harm will come from putting 100nF here" H 900 1500 50  0001 C CNN "Notes"
 	1    900  1500
 	1    0    0    -1  
 $EndComp
@@ -595,6 +601,8 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 1100 1500 50  0001 C CIN
 F 4 "V" H 1100 1500 50  0001 C CNN "Spice_Primitive"
 F 5 "dc 4.096 ac 50m" H 1100 1500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1100 1500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "LM4040A41IDBZT‎" H 1100 1500 50  0001 C CNN "Suggested Part"
+F 8 "0.1%" H 1100 1500 50  0001 C CNN "Tolerance"
 	1    1100 1500
 	0    -1   -1   0   
 $EndComp
@@ -612,6 +620,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8150 1100 50  0001 C CNN "Suggested Part"
 	2    8150 1100
 	1    0    0    1   
 $EndComp
@@ -629,6 +638,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 6700 1100 50  0001 C CNN "Suggested Part"
 	4    6700 1100
 	1    0    0    1   
 $EndComp
@@ -646,6 +656,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 6700 2000 50  0001 C CNN "Suggested Part"
 	3    6700 2000
 	1    0    0    1   
 $EndComp
@@ -663,6 +674,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8150 2050 50  0001 C CNN "Suggested Part"
 	1    8150 2050
 	1    0    0    1   
 $EndComp
@@ -680,6 +692,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 10400 2500 50  0001 C CNN "Suggested Part"
 	5    10400 2500
 	1    0    0    -1  
 $EndComp

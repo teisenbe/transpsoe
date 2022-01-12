@@ -21,6 +21,7 @@ F 0 "J7" H 9550 1567 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 9550 1650 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9500 1150 50  0001 C CNN
 F 3 "~" H 9500 1150 50  0001 C CNN
+F 4 "Tayda A-198 if you don't mind splitting headers yourself" H 9500 1150 50  0001 C CNN "Suggested Part"
 	1    9500 1150
 	1    0    0    -1  
 $EndComp
@@ -62,6 +63,7 @@ F 1 "1M" H 2450 2900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2440 2940 50  0001 C CNN
 F 3 "~" H 2400 2950 50  0001 C CNN
 F 4 "" H 2400 2950 50  0001 C CNN "Notes"
+F 5 "5%" H 2400 2950 50  0001 C CNN "Tolerance"
 	1    2400 2950
 	1    0    0    -1  
 $EndComp
@@ -131,6 +133,7 @@ F 4 "" H 5250 2450 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 5250 2450 50  0001 C CNN "Spice_Model"
 F 6 "" H 5250 2450 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 5250 2450 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 5250 2450 50  0001 C CNN "Suggested Part"
 	1    5250 2450
 	1    0    0    1   
 $EndComp
@@ -255,6 +258,7 @@ F 4 "" H 5250 3350 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 5250 3350 50  0001 C CNN "Spice_Model"
 F 6 "" H 5250 3350 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 5250 3350 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 5250 3350 50  0001 C CNN "Suggested Part"
 	2    5250 3350
 	1    0    0    -1  
 $EndComp
@@ -263,9 +267,10 @@ L Device:R_US R25
 U 1 1 6246E0F8
 P 5700 3350
 F 0 "R25" V 5905 3350 50  0000 C CNN
-F 1 "50" V 5814 3350 50  0000 C CNN
+F 1 "51" V 5814 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 3340 50  0001 C CNN
 F 3 "~" H 5700 3350 50  0001 C CNN
+F 4 "5%" H 5700 3350 50  0001 C CNN "Tolerance"
 	1    5700 3350
 	0    -1   1    0   
 $EndComp
@@ -346,6 +351,7 @@ F 4 "" H 8000 2450 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 8000 2450 50  0001 C CNN "Spice_Model"
 F 6 "" H 8000 2450 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 8000 2450 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8000 2450 50  0001 C CNN "Suggested Part"
 	1    8000 2450
 	1    0    0    1   
 $EndComp
@@ -354,9 +360,10 @@ L Device:R_US R44
 U 1 1 6248AC56
 P 8450 2450
 F 0 "R44" V 8655 2450 50  0000 C CNN
-F 1 "50" V 8564 2450 50  0000 C CNN
+F 1 "51" V 8564 2450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 2440 50  0001 C CNN
 F 3 "~" H 8450 2450 50  0001 C CNN
+F 4 "5%" H 8450 2450 50  0001 C CNN "Tolerance"
 	1    8450 2450
 	0    -1   -1   0   
 $EndComp
@@ -437,6 +444,7 @@ F 4 "" H 8000 3350 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 8000 3350 50  0001 C CNN "Spice_Model"
 F 6 "" H 8000 3350 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 8000 3350 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8000 3350 50  0001 C CNN "Suggested Part"
 	2    8000 3350
 	1    0    0    -1  
 $EndComp
@@ -445,9 +453,10 @@ L Device:R_US R45
 U 1 1 6248ACC0
 P 8450 3350
 F 0 "R45" V 8655 3350 50  0000 C CNN
-F 1 "50" V 8564 3350 50  0000 C CNN
+F 1 "51" V 8564 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 3340 50  0001 C CNN
 F 3 "~" H 8450 3350 50  0001 C CNN
+F 4 "5%" H 8450 3350 50  0001 C CNN "Tolerance"
 	1    8450 3350
 	0    -1   1    0   
 $EndComp
@@ -469,6 +478,7 @@ F 4 "" H 2950 5200 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 2950 5200 50  0001 C CNN "Spice_Model"
 F 6 "" H 2950 5200 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 2950 5200 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 2950 5200 50  0001 C CNN "Suggested Part"
 	4    2950 5200
 	1    0    0    -1  
 $EndComp
@@ -485,6 +495,7 @@ F 1 "1M" H 2450 5200 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2440 5240 50  0001 C CNN
 F 3 "~" H 2400 5250 50  0001 C CNN
 F 4 "" H 2400 5250 50  0001 C CNN "Notes"
+F 5 "5%" H 2400 5250 50  0001 C CNN "Tolerance"
 	1    2400 5250
 	1    0    0    -1  
 $EndComp
@@ -580,6 +591,7 @@ F 4 "" H 5250 4750 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 5250 4750 50  0001 C CNN "Spice_Model"
 F 6 "" H 5250 4750 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 5250 4750 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 5250 4750 50  0001 C CNN "Suggested Part"
 	4    5250 4750
 	1    0    0    1   
 $EndComp
@@ -588,9 +600,10 @@ L Device:R_US R26
 U 1 1 6260494C
 P 5700 4750
 F 0 "R26" V 5905 4750 50  0000 C CNN
-F 1 "50" V 5814 4750 50  0000 C CNN
+F 1 "51" V 5814 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 4740 50  0001 C CNN
 F 3 "~" H 5700 4750 50  0001 C CNN
+F 4 "5%" H 5700 4750 50  0001 C CNN "Tolerance"
 	1    5700 4750
 	0    -1   -1   0   
 $EndComp
@@ -606,6 +619,7 @@ F 4 "" H 3900 5200 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 3900 5200 50  0001 C CNN "Spice_Model"
 F 6 "" H 3900 5200 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 3900 5200 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 3900 5200 50  0001 C CNN "Suggested Part"
 	3    3900 5200
 	1    0    0    1   
 $EndComp
@@ -718,6 +732,7 @@ F 4 "" H 5250 5650 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 5250 5650 50  0001 C CNN "Spice_Model"
 F 6 "" H 5250 5650 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 5250 5650 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 5250 5650 50  0001 C CNN "Suggested Part"
 	3    5250 5650
 	1    0    0    -1  
 $EndComp
@@ -726,9 +741,10 @@ L Device:R_US R27
 U 1 1 626049E8
 P 5700 5650
 F 0 "R27" V 5905 5650 50  0000 C CNN
-F 1 "50" V 5814 5650 50  0000 C CNN
+F 1 "51" V 5814 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5740 5640 50  0001 C CNN
 F 3 "~" H 5700 5650 50  0001 C CNN
+F 4 "5%" H 5700 5650 50  0001 C CNN "Tolerance"
 	1    5700 5650
 	0    -1   1    0   
 $EndComp
@@ -807,6 +823,7 @@ F 4 "" H 8000 4750 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 8000 4750 50  0001 C CNN "Spice_Model"
 F 6 "" H 8000 4750 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 8000 4750 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8000 4750 50  0001 C CNN "Suggested Part"
 	4    8000 4750
 	1    0    0    1   
 $EndComp
@@ -815,9 +832,10 @@ L Device:R_US R46
 U 1 1 62604A52
 P 8450 4750
 F 0 "R46" V 8655 4750 50  0000 C CNN
-F 1 "50" V 8564 4750 50  0000 C CNN
+F 1 "51" V 8564 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 4740 50  0001 C CNN
 F 3 "~" H 8450 4750 50  0001 C CNN
+F 4 "5%" H 8450 4750 50  0001 C CNN "Tolerance"
 	1    8450 4750
 	0    -1   -1   0   
 $EndComp
@@ -896,6 +914,7 @@ F 4 "" H 8000 5650 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 8000 5650 50  0001 C CNN "Spice_Model"
 F 6 "" H 8000 5650 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 8000 5650 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 8000 5650 50  0001 C CNN "Suggested Part"
 	3    8000 5650
 	1    0    0    -1  
 $EndComp
@@ -904,9 +923,10 @@ L Device:R_US R47
 U 1 1 62604ABC
 P 8450 5650
 F 0 "R47" V 8655 5650 50  0000 C CNN
-F 1 "50" V 8564 5650 50  0000 C CNN
+F 1 "51" V 8564 5650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8490 5640 50  0001 C CNN
 F 3 "~" H 8450 5650 50  0001 C CNN
+F 4 "5%" H 8450 5650 50  0001 C CNN "Tolerance"
 	1    8450 5650
 	0    -1   1    0   
 $EndComp
@@ -957,6 +977,7 @@ F 4 "" H 2950 2900 50  0001 C CNN "Spice_Primitive"
 F 5 "" H 2950 2900 50  0001 C CNN "Spice_Model"
 F 6 "" H 2950 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 2950 2900 50  0001 C CNN "Spice_Lib_File"
+F 8 "OPA4991QDRQ1" H 2950 2900 50  0001 C CNN "Suggested Part"
 	1    2950 2900
 	1    0    0    -1  
 $EndComp
@@ -972,6 +993,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 5650 1000 50  0001 C CNN "Suggested Part"
 	5    5650 1000
 	1    0    0    -1  
 $EndComp
@@ -1059,6 +1081,7 @@ F 4 "" H 6350 1000 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 6350 1000 50  0001 C CNN "Spice_Model"
 F 6 "" H 6350 1000 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 6350 1000 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 6350 1000 50  0001 C CNN "Suggested Part"
 	5    6350 1000
 	1    0    0    -1  
 $EndComp
@@ -1146,6 +1169,7 @@ F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
 F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 6950 1000 50  0001 C CNN "Suggested Part"
 	5    6950 1000
 	1    0    0    -1  
 $EndComp
@@ -1230,6 +1254,8 @@ F 0 "D1" H 9150 1166 50  0000 C CNN
 F 1 "D_Schottky" H 9150 1075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 9150 950 50  0001 C CNN
 F 3 "~" H 9150 950 50  0001 C CNN
+F 4 "Reverse voltage protection" H 9150 950 50  0001 C CNN "Notes"
+F 5 "SS14, but any Schottky diode with a >24V reverse voltage and SMA footprint" H 9150 950 50  0001 C CNN "Suggested Part"
 	1    9150 950 
 	1    0    0    -1  
 $EndComp
@@ -1242,6 +1268,8 @@ F 0 "D2" H 9150 1134 50  0000 C CNN
 F 1 "D_Schottky" H 9150 1225 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA_Handsoldering" H 9150 1350 50  0001 C CNN
 F 3 "~" H 9150 1350 50  0001 C CNN
+F 4 "Reverse voltage protection" H 9150 1350 50  0001 C CNN "Notes"
+F 5 "SS14, but any Schottky diode with a >24V reverse voltage and SMA footprint" H 9150 1350 50  0001 C CNN "Suggested Part"
 	1    9150 1350
 	-1   0    0    1   
 $EndComp
@@ -1381,6 +1409,7 @@ F 0 "J14" H 1950 6550 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 1808 6540 50  0001 C CNN
 F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1700 6150 50  0001 C CNN
 F 3 "~" H 1700 6150 50  0001 C CNN
+F 4 "SAMTEC_TSM-108-01-F-SV-LC. Strongly recommend against substituting here, as it may effect clearance between the module and your rails" H 1700 6150 50  0001 C CNN "Suggested Part"
 	1    1700 6150
 	1    0    0    -1  
 $EndComp
@@ -1392,6 +1421,7 @@ F 0 "J15" H 1950 7550 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 1808 7540 50  0001 C CNN
 F 2 "transpsoe:SAMTEC_TSM-108-01-F-SV-LC" H 1700 7150 50  0001 C CNN
 F 3 "~" H 1700 7150 50  0001 C CNN
+F 4 "SAMTEC_TSM-108-01-F-SV-LC. Strongly recommend against substituting here, as it may effect clearance between the module and your rails" H 1700 7150 50  0001 C CNN "Suggested Part"
 	1    1700 7150
 	1    0    0    -1  
 $EndComp
@@ -1403,6 +1433,7 @@ F 0 "J13" H 1300 7550 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 1678 7035 50  0001 L CNN
 F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1650 7150 50  0001 C CNN
 F 3 "~" H 1650 7150 50  0001 C CNN
+F 4 "SAMTEC_SSM-108-L-SV-LC. Strongly recommend against substituting here, as it may effect clearance between the module and your rails" H 1650 7150 50  0001 C CNN "Suggested Part"
 	1    1650 7150
 	1    0    0    -1  
 $EndComp
@@ -1414,6 +1445,7 @@ F 0 "J12" H 1300 6550 50  0000 L CNN
 F 1 "Conn_01x08_Female" H 1000 6800 50  0001 L CNN
 F 2 "transpsoe:SAMTEC_SSM-108-L-SV-LC" H 1650 6150 50  0001 C CNN
 F 3 "~" H 1650 6150 50  0001 C CNN
+F 4 "SAMTEC_SSM-108-L-SV-LC. Strongly recommend against substituting here, as it may effect clearance between the module and your rails" H 1650 6150 50  0001 C CNN "Suggested Part"
 	1    1650 6150
 	1    0    0    -1  
 $EndComp
@@ -1570,6 +1602,7 @@ F 4 "" H 3900 2900 50  0001 C CNN "Spice_Primitive"
 F 5 "" H 3900 2900 50  0001 C CNN "Spice_Model"
 F 6 "" H 3900 2900 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 3900 2900 50  0001 C CNN "Spice_Lib_File"
+F 8 "OPA4991QDRQ1" H 3900 2900 50  0001 C CNN "Suggested Part"
 	2    3900 2900
 	1    0    0    1   
 $EndComp

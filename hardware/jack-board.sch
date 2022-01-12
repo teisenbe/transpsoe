@@ -33,6 +33,7 @@ F 3 "~" H 2500 2750 50  0001 C CNN
 F 4 "V" H 2500 2750 50  0001 C CNN "Spice_Primitive"
 F 5 "sin(0 6 4)" H 2500 2750 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2500 2750 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "Tayda A-2566" H 2500 2750 50  0001 C CNN "Suggested Part"
 	1    2500 2750
 	1    0    0    1   
 $EndComp
@@ -48,6 +49,7 @@ F 0 "J2" H 2321 3083 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 2321 3174 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 2500 3150 50  0001 C CNN
 F 3 "~" H 2500 3150 50  0001 C CNN
+F 4 "Tayda A-2566" H 2500 3150 50  0001 C CNN "Suggested Part"
 	1    2500 3150
 	1    0    0    1   
 $EndComp
@@ -68,6 +70,7 @@ F 0 "J5" H 4721 3483 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 4721 3574 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 4900 3550 50  0001 C CNN
 F 3 "~" H 4900 3550 50  0001 C CNN
+F 4 "Tayda A-2566" H 4900 3550 50  0001 C CNN "Suggested Part"
 	1    4900 3550
 	-1   0    0    1   
 $EndComp
@@ -81,6 +84,7 @@ F 0 "J6" H 4721 3883 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 4721 3974 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 4900 3950 50  0001 C CNN
 F 3 "~" H 4900 3950 50  0001 C CNN
+F 4 "Tayda A-2566" H 4900 3950 50  0001 C CNN "Suggested Part"
 	1    4900 3950
 	-1   0    0    1   
 $EndComp
@@ -98,6 +102,7 @@ F 0 "J3" H 4721 2683 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 4721 2774 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 4900 2750 50  0001 C CNN
 F 3 "~" H 4900 2750 50  0001 C CNN
+F 4 "Tayda A-2566" H 4900 2750 50  0001 C CNN "Suggested Part"
 	1    4900 2750
 	-1   0    0    1   
 $EndComp
@@ -116,6 +121,7 @@ F 0 "J4" H 4721 3083 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 4721 3174 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 4900 3150 50  0001 C CNN
 F 3 "~" H 4900 3150 50  0001 C CNN
+F 4 "Tayda A-2566" H 4900 3150 50  0001 C CNN "Suggested Part"
 	1    4900 3150
 	-1   0    0    1   
 $EndComp
@@ -140,6 +146,7 @@ F 0 "J10" H 6421 3483 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6421 3574 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 6600 3550 50  0001 C CNN
 F 3 "~" H 6600 3550 50  0001 C CNN
+F 4 "Tayda A-2566" H 6600 3550 50  0001 C CNN "Suggested Part"
 	1    6600 3550
 	-1   0    0    1   
 $EndComp
@@ -153,6 +160,7 @@ F 0 "J11" H 6421 3883 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6421 3974 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 6600 3950 50  0001 C CNN
 F 3 "~" H 6600 3950 50  0001 C CNN
+F 4 "Tayda A-2566" H 6600 3950 50  0001 C CNN "Suggested Part"
 	1    6600 3950
 	-1   0    0    1   
 $EndComp
@@ -170,6 +178,7 @@ F 0 "J8" H 6421 2683 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6421 2774 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 6600 2750 50  0001 C CNN
 F 3 "~" H 6600 2750 50  0001 C CNN
+F 4 "Tayda A-2566" H 6600 2750 50  0001 C CNN "Suggested Part"
 	1    6600 2750
 	-1   0    0    1   
 $EndComp
@@ -188,6 +197,7 @@ F 0 "J9" H 6421 3083 50  0000 R CNN
 F 1 "AudioJack2_SwitchT" H 6421 3174 50  0000 R CNN
 F 2 "transpsoe:PJ-301BM" H 6600 3150 50  0001 C CNN
 F 3 "~" H 6600 3150 50  0001 C CNN
+F 4 "Tayda A-2566" H 6600 3150 50  0001 C CNN "Suggested Part"
 	1    6600 3150
 	-1   0    0    1   
 $EndComp
@@ -229,6 +239,8 @@ F 4 "R" H 2650 4650 50  0001 C CNN "Spice_Primitive"
 F 5 "0" H 2650 4650 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2650 4650 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "1 2" H 2650 4650 50  0001 C CNN "Spice_Node_Sequence"
+F 8 "CIT Relay's BNT11SEA5*E or BNT11SEC*E, CK's T101SHC* or T101SHV3*, E-Switch's 200-MSP1TB1M2* or 200-MSP1T1B1VS2*, Tayda's A-5290 (double check that it's equivalent in footprint, height, and function to the BNT11SEA5QE or BNT11SECQE" H 2650 4650 50  0001 C CNN "Suggested Part"
+F 9 "See Suggested Part field for alternative parts. This seems to be a fairly common footprint and set of switch dimmensions. The footprint on board has 5 pins, but should be compatible with 3 pin devices. Use the center 3 pins in that case" V 2650 4650 50  0001 C CNN "Notes"
 	1    2650 4650
 	0    -1   -1   0   
 $EndComp
@@ -245,9 +257,10 @@ P 4450 2600
 AR Path="/622FC048" Ref="R?"  Part="1" 
 AR Path="/6203B4EC/622FC048" Ref="R24"  Part="1" 
 F 0 "R24" V 4655 2600 50  0000 C CNN
-F 1 "50" V 4564 2600 50  0000 C CNN
+F 1 "51" V 4564 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4490 2590 50  0001 C CNN
 F 3 "~" H 4450 2600 50  0001 C CNN
+F 4 "5%" H 4450 2600 50  0001 C CNN "Tolerance"
 	1    4450 2600
 	-1   0    0    1   
 $EndComp

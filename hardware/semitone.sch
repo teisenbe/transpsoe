@@ -23,6 +23,8 @@ F 0 "SW1" H 3700 2931 50  0000 C CNN
 F 1 "SW_Rotary12" H 3700 2840 50  0000 C CNN
 F 2 "transpsoe:MC12xxxCxx" H 3600 2850 50  0001 C CNN
 F 3 "https://www.ckswitches.com/media/1353/m.pdf" H 3600 2850 50  0001 C CNN
+F 4 "Any of CK's MC12xxNCxx, MC00xxNCxx, or MG00xxNCxx. I recommended one of the 00s, since they can move between positions 12 and 1 in one click. I like the D-shaft ones due to ease of alignment of indicators" H 3800 2150 50  0001 C CNN "Suggested Part"
+F 5 "You will likely want to buy a 1/4in to 1/8in shaft adapter. I used https://www.amplifiedparts.com/products/potentiometer-adapter-sleeve-converts-125-shaft-14" H 3800 2150 50  0001 C CNN "Notes"
 	1    3800 2150
 	1    0    0    1   
 $EndComp
@@ -42,6 +44,7 @@ F 4 "" H 700 1450 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 700 1450 50  0001 C CNN "Spice_Model"
 F 6 "" H 700 1450 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 700 1450 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 4500 5000 50  0001 C CNN "Suggested Part"
 	4    4500 5000
 	1    0    0    1   
 $EndComp
@@ -121,6 +124,7 @@ F 4 "" H 700 1450 50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 700 1450 50  0001 C CNN "Spice_Model"
 F 6 "" H 700 1450 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "" H 700 1450 50  0001 C CNN "Spice_Primitive"
+F 8 "OPA4991QDRQ1" H 2600 5000 50  0001 C CNN "Suggested Part"
 	2    2600 5000
 	1    0    0    -1  
 $EndComp
@@ -458,6 +462,7 @@ F 1 "2k" V 1750 5350 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 1850 5350 50  0001 C CNN
 F 3 "~" H 1850 5350 50  0001 C CNN
 F 4 "10%" V 1850 5350 50  0001 C CNN "Tolerance"
+F 5 "Tayda A-591" H 1850 5350 50  0001 C CNN "Suggested Part"
 	1    1850 5350
 	0    1    1    0   
 $EndComp
