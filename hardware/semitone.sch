@@ -462,7 +462,7 @@ F 1 "2k" V 1750 5350 50  0000 C CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 1850 5350 50  0001 C CNN
 F 3 "~" H 1850 5350 50  0001 C CNN
 F 4 "10%" V 1850 5350 50  0001 C CNN "Tolerance"
-F 5 "Tayda A-591" H 1850 5350 50  0001 C CNN "Suggested Part"
+F 5 "Bourns 3296W" H 1850 5350 50  0001 C CNN "Suggested Part"
 	1    1850 5350
 	0    1    1    0   
 $EndComp

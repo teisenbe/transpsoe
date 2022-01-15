@@ -83,7 +83,7 @@ F 4 "R" H 1900 1350 50  0001 C CNN "Spice_Primitive"
 F 5 "2k" H 1900 1350 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1900 1350 50  0001 C CNN "Spice_Netlist_Enabled"
 F 7 "10%" V 1900 1350 50  0001 C CNN "Tolerance"
-F 8 "Tayda A-591" H 1900 1350 50  0001 C CNN "Suggested Part"
+F 8 "Bourns 3296W" H 1900 1350 50  0001 C CNN "Suggested Part"
 	1    1900 1350
 	0    -1   -1   0   
 $EndComp
