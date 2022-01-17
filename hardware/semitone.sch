@@ -81,7 +81,7 @@ F 0 "R67" H 1932 4704 50  0000 R CNN
 F 1 "110k" H 1932 4795 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2040 4740 50  0001 C CNN
 F 3 "~" H 2000 4750 50  0001 C CNN
-F 4 "1%" H 2000 4750 50  0001 C CNN "Tolerance"
+F 4 "1%, low temp co" H 2000 4750 50  0001 C CNN "Tolerance"
 	1    2000 4750
 	-1   0    0    1   
 $EndComp

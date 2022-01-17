@@ -104,7 +104,7 @@ F 3 "~" H 2150 1500 50  0001 C CNN
 F 4 "R" H 2150 1500 50  0001 C CNN "Spice_Primitive"
 F 5 "39k" H 2150 1500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 2150 1500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "1%" H 2150 1500 50  0001 C CNN "Tolerance"
+F 7 "1%, but low temp co" H 2150 1500 50  0001 C CNN "Tolerance"
 	1    2150 1500
 	1    0    0    -1  
 $EndComp
@@ -191,7 +191,7 @@ F 0 "R56" V 4745 2100 50  0000 C CNN
 F 1 "1k" V 4836 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4990 2090 50  0001 C CNN
 F 3 "~" H 4950 2100 50  0001 C CNN
-F 4 "0.05%" V 4950 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 4950 2100 50  0001 C CNN "Tolerance"
 	1    4950 2100
 	0    -1   1    0   
 $EndComp
@@ -203,7 +203,7 @@ F 0 "R55" V 4445 2100 50  0000 C CNN
 F 1 "1k" V 4536 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4690 2090 50  0001 C CNN
 F 3 "~" H 4650 2100 50  0001 C CNN
-F 4 "0.05%" V 4650 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 4650 2100 50  0001 C CNN "Tolerance"
 	1    4650 2100
 	0    -1   1    0   
 $EndComp
@@ -253,7 +253,7 @@ F 0 "R57" V 5045 2100 50  0000 C CNN
 F 1 "1k" V 5136 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5290 2090 50  0001 C CNN
 F 3 "~" H 5250 2100 50  0001 C CNN
-F 4 "0.05%" V 5250 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 5250 2100 50  0001 C CNN "Tolerance"
 	1    5250 2100
 	0    -1   1    0   
 $EndComp
@@ -272,7 +272,7 @@ F 0 "R53" V 4145 2100 50  0000 C CNN
 F 1 "1k" V 4236 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4390 2090 50  0001 C CNN
 F 3 "~" H 4350 2100 50  0001 C CNN
-F 4 "0.05%" V 4350 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 4350 2100 50  0001 C CNN "Tolerance"
 	1    4350 2100
 	0    -1   1    0   
 $EndComp
@@ -601,7 +601,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 1100 1500 50  0001 C CIN
 F 4 "V" H 1100 1500 50  0001 C CNN "Spice_Primitive"
 F 5 "dc 4.096 ac 50m" H 1100 1500 50  0001 C CNN "Spice_Model"
 F 6 "Y" H 1100 1500 50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "LM4040A41IDBZT‎" H 1100 1500 50  0001 C CNN "Suggested Part"
+F 7 "TI LM4040A41IDBZT‎ or ‎Analog Devices LM4040AIM3-4.1+T‎" H 1100 1500 50  0001 C CNN "Suggested Part"
 F 8 "0.1%" H 1100 1500 50  0001 C CNN "Tolerance"
 	1    1100 1500
 	0    -1   -1   0   
@@ -704,7 +704,7 @@ F 0 "R52" V 3845 2100 50  0000 C CNN
 F 1 "3k" V 3936 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4090 2090 50  0001 C CNN
 F 3 "~" H 4050 2100 50  0001 C CNN
-F 4 "0.05%" V 4050 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 4050 2100 50  0001 C CNN "Tolerance"
 	1    4050 2100
 	0    -1   1    0   
 $EndComp
@@ -716,7 +716,7 @@ F 0 "R58" V 5345 2100 50  0000 C CNN
 F 1 "1k" V 5436 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5590 2090 50  0001 C CNN
 F 3 "~" H 5550 2100 50  0001 C CNN
-F 4 "0.05%" V 5550 2100 50  0001 C CNN "Tolerance"
+F 4 "0.05%, low temp co" V 5550 2100 50  0001 C CNN "Tolerance"
 	1    5550 2100
 	0    -1   1    0   
 $EndComp
