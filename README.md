@@ -1,6 +1,6 @@
 # Transpsoe
 
-This is a **work-in-progress** Eurorack 1u 21hp module that performs pitch transposition on V/oct signals. The panel is designed for Intellijel 1u, but is (untested) compatible with Pulp Logic 1u. **This module has never been built and may be unsafe to construct**.
+This is a **work-in-progress** Eurorack 1u 22hp module that performs pitch transposition on V/oct signals. The panel is designed for Intellijel 1u, but is (untested) compatible with Pulp Logic 1u. **This module has never been built and may be unsafe to construct**.
 
 ![Image of Transpsoe's panel](panel/panel.png)
 ![Render of Transpsoe's boards](render.png)
