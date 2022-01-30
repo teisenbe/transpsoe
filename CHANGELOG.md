@@ -12,6 +12,7 @@ This document describes the changes between board revisions
 - Fixed C11 label on pad
 - Fixed U4 label off board
 - Fixed via stitching on -12V rail
+- Migrate to KiCad6 footprints for caps and resistors (caps are now slightly longer, resistors are now shorter)
 
 ## Jack board
 
