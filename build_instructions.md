@@ -7,10 +7,10 @@
 | C1-C10 | 10 | 100nF 0603, >= 25V | Samsung CL10B104KA8NNNC |
 | C11, C12   | 2        | DNI | |
 | C13, C14   | 2        | 10uF 0603, >=25V | Murata GRM188R61E106KA73D |
-| D1, D2     | 2        | Schottky diode, >24V reverse voltage, SMA footprint | | SS14 |
+| D1, D2     | 2        | Schottky diode, >24V reverse voltage, SMA footprint | SS14 |
 | D3         | 1        | 1N4148, SOD-123 | SMC Diode Solutions 1N4148WTR |
 | J1-J6, J8-J11 | 10     | Compatible with Wenzhou QingPu WQP-WQP518MA-BM | WQP-WQP518MA-BM, WQP-PJ398S-BM, WQP-PJ301BM |
-| J7         | 1        | Unshrouded 2x5 vertical pin header, 2.54mm pitch, through hole | Amphenol 67997-210HLF, Tayda A-198 (if you don't mind splitting headers yourself) |
+| J7         | 1        | Unshrouded 2x5 vertical pin header, 2.54mm pitch, through hole | Amphenol 67997-210HLF, or Tayda A-198 if you don't mind splitting headers yourself |
 | J12, J13   | 2        | Samtec SSM-108-L-SV-LC | Samtec SSM-108-L-SV-LC |
 | J14, J15   | 2        | Samtec TSM-108-01-F-SV-LC | Samtec TSM-108-01-F-SV-LC |
 | R1, R2     | 2        | 1M 0603 (any tolerance) | Walsin WR06X105 JTL |
@@ -47,7 +47,8 @@ Silkscreen conventions:
 
 ## Assembly
 
-1. **Read the [Important notes section](#important-notes)** Start with the main board and solder all of the surface mount components on the raccoon side. You can do this however you want; I like to move from one end of the board to the other.
+1. **Read the [Important notes section](#important-notes)**.
+1. Start with the main board and solder all of the surface mount components on the raccoon side. You can do this however you want; I like to move from one end of the board to the other.
 1. Flip the board over and solder J14 & J15. Do not attempt to remove them from the board once the retaining clips have been inserted, as this will likely rip the retaining clips out of the part. The retaining clips work fairly well for positioning, but solder one pin and double check the connector looks square to the board. Solder the rest of their pins.
 1. Flip the board back over and solder J7. Make sure this header is on the side with the raccoon. Solder one pin, double check the connector is square and is on the right side of the board. Solder the rest of its pins.
 1. Solder RV1 and RV2. The plastic bodies should be on the side with the raccoon. Solder one pin, check the trimpot is square, then solder the rest of the pins.
