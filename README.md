@@ -2,9 +2,7 @@
 
 This is a Eurorack 1u 22hp module that performs pitch transposition on V/oct signals. Outputs are accurate to within 1.5mV, often better. The panel is designed for Intellijel 1u, but is (untested) compatible with Pulp Logic 1u. Build instructions can be found [here](build_instructions.md). **Note: rev 1 has not been built yet, but is only minor changes from rev 0, see the [changelog](CHANGELOG.md) for details.**
 
-![Image of Transpsoe's panel](panel/panel.png)
-![Render of Transpsoe's boards](render.png)
-Note the render is slightly incorrect due to KiCad's rendering not matching OSH Park's fabrication process.
+![Photo of assembled Transpsoe](transpsoe.png)
 
 ## Project Status
 
