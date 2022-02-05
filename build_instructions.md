@@ -60,6 +60,7 @@ Silkscreen conventions:
 1. Place SW1, making sure pin 1 is aligned with the vertical line at the top. Secure SW1 to the board with tape or some other means, and solder one pin. Double check the switch is square to the board, then solder the rest of the pins.
 1. Place SW2. If using a 3-pin device, use the middle 3 holes. Secure the switch to the board, and solder one pin. Double check it's square to the board, then solder the rest of the pins.
 1. Place and solder J12 & J13 like you did with J14 & J15.
+1. Put the panel back on and secure all jack and switch nuts. You may want to place an additional nut or shim on each switch so the board rests on it instead of being compressed into the air.
 
 ## Powering on and calibrating
 
