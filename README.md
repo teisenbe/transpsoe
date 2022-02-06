@@ -42,6 +42,10 @@ Each output is labeled with an integer representing a number of octaves to shift
 - 12V: ~13 mA
 - -12V: ~13 mA
 
+### Input/Output voltage limits
+
+All inputs should function fine in the +/- 11V range. All outputs should function fine as long as their expected value is in the +/- 11V range.
+
 ### Calibration
 
 1. Apply power to the module.
