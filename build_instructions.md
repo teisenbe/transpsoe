@@ -15,7 +15,7 @@
 | J14, J15   | 2        | Samtec TSM-108-01-F-SV-LC | Samtec TSM-108-01-F-SV-LC |
 | R1, R2     | 2        | 1M 0603 (any tolerance) | Walsin WR06X105 JTL |
 | R4-R7, R9-R14, R16, R20-R23, R28-R35, R40-R43, R49, R51, R54 | 30 | 100k 0603 0.1% | YAGEO RT0603BRB07100KL |
-| R24-R27, R44-R47 | 8 | 51 0603 5% | Stackpole Electronics RMCF0603JT51R0 |
+| R24-R27, R44-R47 | 8 | 330 0603 5% | |
 | R48        | 1        | 22k 0603 1% | Walsin WR06X2202FTL |
 | R50        | 1        | 39k 0603 1%, low temp co | Panasonic ERA-3VRW3902V |
 | R52        | 1        | 3k 0603 0.05% low temp co | Susumu RG1608N-302-W-T1 |

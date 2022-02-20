@@ -613,6 +613,7 @@
     )
   )
 
+
   (junction (at 99.06 43.18) (diameter 0) (color 0 0 0 0)
     (uuid 06665bf8-cef1-4e75-8d5b-1537b3c1b090)
   )
@@ -1024,7 +1025,7 @@
     (property "Suggested Part" "OPA4991QDRQ1" (id 8) (at 114.3 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9e50feee-fd1e-48c9-aa44-dd6062da7f84))
+    (pin "1" (uuid 9e50feee-fd1e-48c9-aa44-dd6062da7f85))
     (pin "2" (uuid debb48c2-0606-4abf-b967-c5cd55bd0d6c))
     (pin "3" (uuid c36de2cd-62e2-4141-94ed-8598a4021bc0))
   )

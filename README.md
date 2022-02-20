@@ -1,6 +1,6 @@
 # Transpsoe
 
-This is a Eurorack 1u 22hp module that performs pitch transposition on V/oct signals. Outputs are accurate to within 1.5mV, often better. The panel is designed for Intellijel 1u, but is (untested) compatible with Pulp Logic 1u. Build instructions can be found [here](build_instructions.md). **Note: rev 1 has not been built yet, but is only minor changes from rev 0, see the [changelog](CHANGELOG.md) for details.**
+This is a Eurorack 1u 22hp module that performs pitch transposition on V/oct signals. Outputs are accurate to within 1.5mV, often better. The panel is designed for Intellijel 1u, but is (untested) compatible with Pulp Logic 1u. Build instructions can be found [here](build_instructions.md). **Note: revs 1 and 2 have not been built yet. Rev 1 but is only minor changes from rev 0, but 2 is more substantial. See the [changelog](CHANGELOG.md) for details.**
 
 ![Photo of assembled Transpsoe](transpsoe.png)
 
@@ -10,7 +10,7 @@ This is a Eurorack 1u 22hp module that performs pitch transposition on V/oct sig
 - [x] SPICE simulations
 - [x] Order test board to verify footprints, board alignment, and power connector clearance
 - [x] Order and assemble rev 0 PCBs and components
-- [ ] Order and assemble rev 1 PCBs and components
+- [ ] Order and assemble rev 2 PCBs and components
 
 ## Known issues
 - Something on channel 1 produces around -0.5 to -1mV of error in a way that is visible on the +S output (and all channel 2 outputs when summing is enabled). It does not seem to show up on the other outputs, but this might just mean its calibrated out of the voltage refs.

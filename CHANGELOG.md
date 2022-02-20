@@ -4,6 +4,9 @@ This document describes the changes between board revisions
 
 ## Main board
 
+### Rev 2
+- Redesigned output circuits to have better current limiting and improved stiffness
+
 ### Rev 1
 - Fixed C2 & R5 refdes swap on PCB
 - Fixed R44 & R30 refdes swap on PCB
